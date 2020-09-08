@@ -46,14 +46,15 @@ class RsaEncryptionEncoder implements SingletonInterface
      * Load all necessary Javascript files
      *
      * @param bool $useRequireJsModule
+     * @param PageRenderer $pageRenderer
      */
-    public function enableRsaEncryption($useRequireJsModule = false)
+    public function enableRsaEncryption($useRequireJsModule = false, PageRenderer $pageRenderer = null)
     {
         if ($this->moduleLoaded || !$this->isAvailable()) {
             return;
         }
         $this->moduleLoaded = true;
-        $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
+        $pageRenderer = $pageRenderer ?? GeneralUtility::makeInstance(PageRenderer::class);
         // Include necessary javascript files
         if ($useRequireJsModule) {
             $pageRenderer->loadRequireJsModule('TYPO3/CMS/Rsaauth/RsaEncryptionModule');
