@@ -80,7 +80,7 @@ class RsaAuthService extends AuthenticationService
      *
      * @return bool
      */
-    public function init()
+    public function init(): bool
     {
         return parent::init() && $this->getRsaEncryptionDecoder()->isAvailable();
     }
