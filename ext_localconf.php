@@ -31,7 +31,7 @@ $GLOBALS['TYPO3_CONF_VARS']['FE']['eID_include']['RsaPublicKeyGenerationControll
 
 \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Extbase\SignalSlot\Dispatcher::class)->connect(
     \TYPO3\CMS\Backend\LoginProvider\UsernamePasswordLoginProvider::class,
-    \TYPO3\CMS\Backend\LoginProvider\UsernamePasswordLoginProvider::SIGNAL_getPageRenderer,
+    'getPageRenderer',
     \TYPO3\CMS\Rsaauth\Slot\UsernamePasswordProviderSlot::class,
     'getPageRenderer'
 );
