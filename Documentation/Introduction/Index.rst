@@ -37,3 +37,10 @@ Bugs for the extension should be submitted to the TYPO3 bug tracker at
 <http://forge.typo3.org/projects/typo3v4-core/issues>`_ . Questions
 should be submitted to the TYPO3 mailing lists.
 
+
+.. _current-state:
+
+Current state
+^^^^^^^^^^^^^
+
+The encryption approach of this extension is deprecated. Use HTTPS.
