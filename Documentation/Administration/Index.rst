@@ -1,10 +1,4 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
-
 .. include:: /Includes.rst.txt
-
 
 
 .. _administration:
@@ -28,6 +22,7 @@ The extension requires either an :code:`openssl` PHP module or the
 choose the first working solution with the preference being the PHP
 module. If neither PHP module, nor binary is available, the extension
 will refuse to continue and silently fail authentications.
+
 
 .. _installation:
 
