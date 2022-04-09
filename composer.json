@@ -2,7 +2,12 @@
 	"name": "friendsoftypo3/rsaauth",
 	"type": "typo3-cms-extension",
 	"description": "Legacy service to authenticate TYPO3 BE and FE users using private/public key encryption of passwords",
-	"homepage": "https://typo3.org",
+	"homepage": "https://extensions.typo3.org/extension/rsaauth",
+	"support": {
+		"docs": "https://docs.typo3.org/p/friendsoftypo3/rsaauth/main/en-us/",
+		"issues": "https://github.com/FriendsOfTYPO3/rsaauth/issues",
+		"source": "https://github.com/FriendsOfTYPO3/rsaauth"
+	},
 	"license": ["GPL-2.0-or-later"],
 	"authors": [{
 		"name": "TYPO3 Core Team",
