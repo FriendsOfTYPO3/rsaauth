@@ -1,34 +1,23 @@
-# TYPO3 Extension "rsaauth"
+[![Latest Stable Version](https://poser.pugx.org/friendsoftypo3/rsaauth/v/stable.svg)](https://extensions.typo3.org/extension/rsaauth/)
+[![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg?style=flat-square)](https://get.typo3.org/version/10)
+[![Total Downloads](https://poser.pugx.org/friendsoftypo3/rsaauth/d/total.svg)](https://packagist.org/packages/friendsoftypo3/rsaauth)
+[![Monthly Downloads](https://poser.pugx.org/friendsoftypo3/rsaauth/d/monthly)](https://packagist.org/packages/friendsoftypo3/rsaauth)
 
-Contains a service to authenticate TYPO3 BE and FE users using private/public key
-encryption of passwords.
+# TYPO3 extension `rsaauth`
 
-This is a fallback if the instance is not accessible via HTTPS. However, rsaauth has
-many drawbacks and is not a suitable solution over properly encrypted client/server
-communication. All sites nowadays should be only accessible via HTTPS and rsaauth
-is not needed.
+Contains a service to authenticate TYPO3 BE and FE users using private/public
+key encryption of passwords.
 
-The functionality was part of the TYPO3 Core until TYPO3 v10.0, and moved into its
-own extension, receiving its own public repository.
+This is a fallback if the instance is not accessible via HTTPS. However, this
+extension has many drawbacks and is not a suitable solution over properly
+encrypted client/server communication. All sites nowadays should be only
+accessible via HTTPS and rsaauth is not needed.
 
-## Installation
-The latest version can be installed via TER (http://typo3.org) or via composer
-by adding ''composer require friendsoftypo3/rsaauth'' in a TYPO3 v10.0+ installation.
+The functionality was part of the TYPO3 Core until TYPO3 v10.0, and moved into
+its own extension, receiving its own public repository.
 
-## Current state
-The encryption approach of this extension extension is deprecated. Use HTTPS.
-
-## Contribution
-Feel free to submit any pull request, or add documentation, tests, as you please.
-We will publish a new version every once in a while, depending on the amount of changes
-and pull requests submitted.
-
-### License
-The extension is published under GPL v2+, all included third-party libraries are
-published under their respective licenses.
-
-### Authors
-Many contributors have been working on this area while this functionality was part of
-the TYPO3 Core. This package is now maintained by a loose group of TYPO3 enthusiasts inside
-the TYPO3 Community. Feel free to contact Benni Mack (benni.mack@typo3.org) for any questions
-regarding "rsaauth".
+|                  | URL                                                          |
+|------------------|--------------------------------------------------------------|
+| **Repository:**  | https://github.com/FriendsOfTYPO3/rsaauth                    |
+| **Read online:** | https://docs.typo3.org/p/friendsoftypo3/rsaauth/main/en-us/  |
+| **TER:**         | https://extensions.typo3.org/extension/rsaauth               |
